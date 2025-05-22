@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🧠 Face Recognition App – ArcFace
 **Knowledge Test – AI Engineer (Computer Vision)**  
@@ -61,8 +59,7 @@ docker-compose up --build
 
 ### 🌐 Akses Aplikasi:
 
-* REST API: [http://localhost:8000](http://localhost:8000)
-* UI Frontend: [http://localhost:8000/static/frontend/index.html](http://localhost:8000/static/frontend/index.html)
+* [http://localhost:8000](http://localhost:8000)
 
 ---
 
@@ -146,16 +143,4 @@ Jika Anda mengalami kendala dalam menjalankan aplikasi, silakan hubungi saya mel
 
 ---
 
-````
-
----
-
-### ✅ Langkah Selanjutnya:
-
-- Simpan file ini sebagai `README.md` di root project
-- Commit dan push ke GitHub:
-```bash
-git add README.md
-git commit -m "Update README with full instructions and tree structure"
-git push origin main
 ````
