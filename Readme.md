@@ -23,9 +23,9 @@ STEP 1:
 ```bash
 git clone https://github.com/RestuAgilYA/FaceRecognitionApp-Arcface.git
 cd FaceRecognitionApp-Arcface
+```
 
 ---
-
 STEP 2:
 ## 📥 Download Model `arcface.onnx`
 
