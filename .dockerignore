@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+myvenv/
+venv/
+
+# Environment variable
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model (optional, jika besar)
+models/arcface.onnx

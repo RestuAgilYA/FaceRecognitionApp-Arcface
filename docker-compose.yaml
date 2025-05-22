@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    container_name: face_recognition_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14
+    container_name: face_db
+    restart: always
+    environment:
+      POSTGRES_DB: face_db
+      POSTGRES_USER: restu
+      POSTGRES_PASSWORD: agildanis505
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

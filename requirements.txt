@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+numpy
+pillow
+sqlalchemy
+psycopg2-binary
+facenet-pytorch
+python-multipart
+onnxruntime
+python-dotenv
+opencv-python
+scikit-learn
