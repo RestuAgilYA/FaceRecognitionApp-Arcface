@@ -131,6 +131,7 @@ uvicorn app.main:app --reload
 * Embedding wajah disimpan dalam database menggunakan `pickle`
 * Gambar hasil crop disimpan di `static/images`
 * File `arcface.onnx` **harus tersedia** agar sistem bisa berjalan
+* ❗ Jika Anda melakukan register wajah, pastikan folder `static/images` tetap terjaga. Jika dihapus, maka meskipun data wajah masih ada di database, gambar crop tidak akan bisa ditampilkan.
 
 ---
 
