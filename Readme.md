@@ -58,7 +58,7 @@ docker pull restuagilya/face-recognition-app:latest
 ```bash
 docker run -p 8000:8000 --env-file .env -v "${PWD}/models:/app/models" restuagilya/face-recognition-app:latest
 ```
-### Apabila anda menjalankan di Command Promt:
+### Apabila anda menjalankan di Command Prompt:
 ```bash
 docker run -p 8000:8000 --env-file .env -v "%cd%\models:/app/models" restuagilya/face-recognition-app:latest
 ```
