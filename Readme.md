@@ -49,7 +49,9 @@ models/
 STEP 3
 
 ### 2. Jalankan Docker
+```bash
 docker-compose up --build
+```
 
 ### 3. Akses Aplikasi
 http://localhost:8000
@@ -92,17 +94,18 @@ UI Web Fitur
 ## ⚙️ menjalankan Aplikasi secara manual (tanpa Docker)
 
 1. Install dependencies
-
+```bash
 - pip install -r requirements.txt
-
+```
 2. Siapkan file .env
-
+```bash
 - DATABASE_URL=postgresql://restu:yourpassword@localhost:5432/face_db
+```
 
 3. Jalankan server
-
+```bash
 - uvicorn app.main:app --reload
-
+````
 ---
 
 📎 Catatan Tambahan
