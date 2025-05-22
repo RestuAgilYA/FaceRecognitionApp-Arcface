@@ -118,13 +118,7 @@ docker run -p 8000:8000 --env-file .env -v "%cd%\models:/app/models" restuagilya
 pip install -r requirements.txt
 ```
 
-### 2. Siapkan file `.env`
-
-```env
-DATABASE_URL=postgresql://restu:yourpassword@localhost:5432/face_db
-```
-
-### 3. Jalankan server
+### 2. Jalankan server
 
 ```bash
 uvicorn app.main:app --reload
