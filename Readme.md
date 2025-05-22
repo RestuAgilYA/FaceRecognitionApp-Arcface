@@ -1,6 +1,7 @@
 # 🧠 Face Recognition App – ArcFace
 **Knowledge Test – AI Engineer (Computer Vision)**  
 **PT Widya Inovasi Indonesia**
+App akan tampil di http://localhost:8000/ jika sudah mengikuti petunjuk-petunjuk dibawah.
 
 ---
 
@@ -39,8 +40,9 @@ ATAU / OR
 
 📎 [Download arcface.onnx via Google Drive](https://drive.google.com/file/d/1oKa0_0Z4_YVfBSd1zIVpYT_JkZ7OrgLt/view?usp=sharing)
 
-> Setelah diunduh, letakkan ke folder `models/`, jika folder belum ada, silakan buat folder dengan nama 'models':
+> Setelah diunduh, letakkan ke folder `models/`
 
+.
 models/
 └── arcface.onnx
 
