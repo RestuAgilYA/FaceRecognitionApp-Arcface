@@ -1,8 +1,8 @@
 # 🧠 Face Recognition App – ArcFace
 **Knowledge Test – AI Engineer (Computer Vision)**  
 **PT Widya Inovasi Indonesia**
+---
 App akan tampil di http://localhost:8000/ jika sudah mengikuti petunjuk-petunjuk dibawah.
-
 ---
 
 ## 📸 Deskripsi
