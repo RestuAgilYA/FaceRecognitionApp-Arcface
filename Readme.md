@@ -1,10 +1,6 @@
----
-
-````markdown
 # 🧠 Face Recognition App – ArcFace
 **Knowledge Test – AI Engineer (Computer Vision)**  
 **PT Widya Inovasi Indonesia**
-
 ---
 
 🟢 App akan tampil di:  
