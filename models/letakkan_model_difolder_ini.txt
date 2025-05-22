@@ -1,0 +1,16 @@
+## 📥 Download Model `arcface.onnx`
+
+> Karena GitHub membatasi ukuran file (maks. 100MB), file model `arcface.onnx` **tidak disertakan dalam repositori**.
+
+## Silakan Download dari link berikut:
+
+📎 [Download arcface.onnx via Hugging Face] (https://huggingface.co/FoivosPar/Arc2Face/resolve/da2f1e9aa3954dad093213acfc9ae75a68da6ffd/arcface.onnx?download=true)
+
+ATAU / OR
+
+📎 [Download arcface.onnx via Google Drive](https://drive.google.com/file/d/1oKa0_0Z4_YVfBSd1zIVpYT_JkZ7OrgLt/view?usp=sharing)
+
+> Setelah diunduh, letakkan ke folder `models/`
+
+models/
+└── arcface.onnx
