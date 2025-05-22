@@ -140,5 +140,3 @@ untuk posisi **AI Engineer** di **PT Widya Inovasi Indonesia**.
 Jika Anda mengalami kendala dalam menjalankan aplikasi, silakan hubungi saya melalui email atau GitHub.
 
 ---
-
-````
