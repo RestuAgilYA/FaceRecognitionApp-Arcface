@@ -63,18 +63,18 @@ http://localhost:8000
 Struktur Folder:
 .
 ├── app/
-│ ├── api/ # FastAPI routes
-│ ├── core/ # Face detector, feature extractor, matcher
-│ ├── db/ # SQLAlchemy models & database config
-│ └── main.py # FastAPI entry point
-├── frontend/ # HTML + Tailwind UI
-├── models/ # (letakkan arcface.onnx di sini)
-├── static/images/ # hasil crop wajah
-├── Dockerfile # Container instructions
-├── docker-compose.yml # Run FastAPI + PostgreSQL together
-├── .env # Database connection string
-├── requirements.txt # Python dependencies
-└── README.md # This file
+│   ├── api/                # FastAPI routes
+│   ├── core/               # Face detector, feature extractor, matcher
+│   ├── db/                 # SQLAlchemy models & database config
+│   └── main.py             # FastAPI entry point
+├── frontend/               # HTML + Tailwind UI
+├── models/                 # (letakkan arcface.onnx di sini)
+├── static/images/          # Hasil crop wajah
+├── Dockerfile              # Container instructions
+├── docker-compose.yml      # Jalankan FastAPI + PostgreSQL bersama
+├── .env                    # Koneksi database
+├── requirements.txt        # Python dependencies
+└── README.md               # File ini
 
 🔧 API Endpoint
 | Method | Endpoint              | Fungsi                             |
