@@ -61,6 +61,7 @@ http://localhost:8000
 
 
 Struktur Folder:
+###
 .
 ├── app/
 │ ├── api/                # FastAPI routes
@@ -75,6 +76,7 @@ Struktur Folder:
 ├── .env                  # Database connection string
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
+###
 
 🔧 API Endpoint
 | Method | Endpoint              | Fungsi                             |
