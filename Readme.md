@@ -137,6 +137,6 @@ uvicorn app.main:app --reload
 Aplikasi ini dikembangkan sebagai bagian dari **Knowledge Test**
 untuk posisi **AI Engineer** di **PT Widya Inovasi Indonesia**.
 
-Jika Anda mengalami kendala dalam menjalankan aplikasi, silakan hubungi saya melalui email atau GitHub.
+Jika Anda mengalami kendala dalam menjalankan aplikasi, silakan hubungi saya melalui email: restuagil.ya@gmail.com atau GitHub.
 
 ---
