@@ -56,11 +56,11 @@ docker pull restuagilya/face-recognition-app:latest
 ```
 ### Apabila anda menjalankan di Powershell:
 ```bash
-docker run -p 8000:8000 --env-file .env -v "${PWD}/models:/app/models" restuagilya/face-recognition-app:latest
+docker run -p 8000:8000 --env-file .env -v "${PWD}\models:/app/models" -v "${PWD}\static\images:/app/static/images" restuagilya/face-recognition-app:latest
 ```
 ### Apabila anda menjalankan di Command Prompt:
 ```bash
-docker run -p 8000:8000 --env-file .env -v "%cd%\models:/app/models" restuagilya/face-recognition-app:latest
+docker run -p 8000:8000 --env-file .env -v "%cd%\models:/app/models" -v "%cd%\static\images:/app/static/images" restuagilya/face-recognition-app:latest
 ```
 
 ### 🌐 Akses Aplikasi:
